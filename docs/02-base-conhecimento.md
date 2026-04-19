@@ -28,17 +28,16 @@ O produto fundo imobiliário foi substituiu o fundo multimercado, pois pessoalme
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
-
+> Carregar os arquivos via código, como no exemplo abaixo:
 [ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
 ```python
 import pandas as pd
 import json
-
+# CSVs
 histórico = pd.read_csv('data/historico_atendimento.csv')
 transações = pd.read_csv('data/transacoes.csv')
-
+# JSONs
 with open('data/perfil_investidor.json', 'r', encoding-'utf-8') as f: perfil = json.load(f)
-
 with open('data/produtors_financeiros.json', 'r', encoding-'utf-8') as f: perfil = json.load(f)
 ```
 
