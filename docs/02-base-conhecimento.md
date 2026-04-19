@@ -20,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+O produto fundo imobiliário foi substituiu o fundo multimercado, pois pessoalmente me sinto mais confiante em usar apenas produtos financeiros que eu conheço assim poderei validar as respostas do LUMI de forma mais acertiva.
 
 ---
 
@@ -30,6 +30,17 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 > Descreva como seu agente acessa a base de conhecimento.
 
 [ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+```python
+import pandas as pd
+import json
+
+histórico = pd.read_csv('data/historico_atendimento.csv')
+transações = pd.read_csv('data/transacoes.csv')
+
+with open('data/perfil_investidor.json', 'r', encoding-'utf-8') as f: perfil = json.load(f)
+
+with open('data/produtors_financeiros.json', 'r', encoding-'utf-8') as f: perfil = json.load(f)
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
