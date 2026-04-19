@@ -44,7 +44,9 @@ with open('data/produtors_financeiros.json', 'r', encoding-'utf-8') as f: perfil
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+```text
+
+```
 
 ---
 
