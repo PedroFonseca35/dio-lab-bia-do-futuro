@@ -1,4 +1,4 @@
-data,canal,tema,resumo,resolvido
+data,canal,tema,pergunta,resposta,categoria,nivel,resolvido
 2025-09-15,chat,CDB,"Quanto rende um CDB?","O rendimento de um CDB varia conforme a taxa de referência da economia (Selic), o percentual do CDI oferecido pelo banco e o prazo de aplicação.",investimentos,iniciante,sim
 2025-09-03,chat,Tesouro Selic,"O que é Tesouro Selic?","O Tesouro Selic é um título público emitido pelo Tesouro Nacional com rentabilidade atrelada à taxa Selic (a taxa básica de juros da economia brasileira), acrescida de uma pequena taxa fixa.",investimentos,iniciante,sim
 2025-09-05,chat,Cartão de crédito,"O que acontece se eu pagar o mínimo?","Ao pagar o mínimo da fatura do cartão de crédito, o valor restante é automaticamente financiado pelo crédito rotativo, uma modalidade que cobra juros elevados (que podem chegar a 100% ao ano) sobre o saldo devedor.",credito,iniciante,sim
