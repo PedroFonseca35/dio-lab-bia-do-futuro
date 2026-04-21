@@ -52,7 +52,6 @@
   "categoria": "renda_fixa",
   "risco": "baixo",
   "rentabilidade": "Taxa fixa definida no momento da aplicação",
-  "aporte_minimo": 4.78 e 8.29,
   "aporte_minimo": {
     "min": 4.78,
     "max": 8.29
