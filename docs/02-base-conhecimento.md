@@ -11,9 +11,8 @@
 
 ## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-O produto fundo imobiliário foi substituiu o fundo multimercado, pois pessoalmente me sinto mais confiante em usar apenas produtos financeiros que eu conheço assim poderei validar as respostas do LUMI de forma mais acertiva.
+Foi ampliada a base com novos exemplos de transações financeiras e dúvidas comuns de iniciantes.
+Foram adicionados mais produtos financeiros e melhorias na estrutura dos dados para personalização das respostas afim de englobar mais casos.
 
 ---
 
