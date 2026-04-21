@@ -32,9 +32,9 @@ historico = pd.read_csv('./data/historico_atendimento.csv')
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-```text
+
 [`data/historico_atendimento`](../data/historico_atendimento.csv)
-```
+
 
 ---
 
