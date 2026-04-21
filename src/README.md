@@ -37,5 +37,6 @@ ollama serve
 
 # instalar as dependências e iniciar a aplicação
 pip install streamlit pandas requests
+
 ---
 stremlit run .\src\app.py
