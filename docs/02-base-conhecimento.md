@@ -21,6 +21,8 @@ Foram adicionados mais produtos financeiros e melhorias na estrutura dos dados p
 ### Como os dados são carregados?
 
 ```python
+import pandas as pd
+import json
 perfil = json.load(open('./data/perfil_investidor.json'))
 produtos = json.load(open('./data/produtos_financeiros.json'))
 transacoes = pd.read_csv('./data/transacoes.csv')
