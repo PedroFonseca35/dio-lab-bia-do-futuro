@@ -29,3 +29,12 @@ pip install -r requirements.txt
 # Rodar a aplicação
 streamlit run app.py
 ```
+
+Instalar o ollama.com
+models -> gpt-oss
+ollama run gpt-oss
+ollama serve
+
+# instalar as dependências e iniciar a aplicação
+pip install streamlit pandas requests
+stremlit run .\src\app.py
