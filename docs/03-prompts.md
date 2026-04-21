@@ -30,7 +30,7 @@ REGRAS:
 
 ## Exemplos de Interação
 
-### Cenário 1: [Nome do cenário]
+### Cenário 1: [Organização financeira básica]
 
 **Contexto:** [Situação do cliente]
 
