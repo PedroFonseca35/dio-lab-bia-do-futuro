@@ -30,26 +30,34 @@ historico = pd.read_csv('./data/historico_atendimento.csv')
 ```
 
 ### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
-
 
 [`data/historico_atendimento`](../data/historico_atendimento.csv)
-
+[`data/perfil_investidor`](../data/perfil_investidor.json)
+[`data/produtos_financeiros`](../data/produtos_financeiros.json)
+[`data/transacoes`](../data/transacoes.csv)
 
 ---
 
 ## Exemplo de Contexto Montado
 
-> Mostre um exemplo de como os dados são formatados para o agente.
-
 ```
-Dados do Cliente:
-- Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
-
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
+{
+  "usuario": {
+    "idade": null,
+    "profissao": null,
+    "renda_mensal": null,
+    "perfil_investidor": null,
+    "objetivo_principal": null,
+    "patrimonio_total": null,
+    "reserva_emergencia_atual": null,
+    "aceita_risco": null,
+    "metas": [
+      {
+        "descricao": null,
+        "valor": null,
+        "prazo": null
+      }
+    ]
+  }
+}
 ```
