@@ -39,4 +39,35 @@
     "aporte_minimo": 100.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
   }
+  {
+  "nome": "Poupança",
+  "categoria": "renda_fixa",
+  "risco": "baixo",
+  "rentabilidade": "Baixa, definida por regra da Selic",
+  "aporte_minimo": 5.00,
+  "indicado_para": "Usuários iniciantes que priorizam simplicidade e liquidez"
+},
+{
+  "nome": "Tesouro Prefixado",
+  "categoria": "renda_fixa",
+  "risco": "baixo",
+  "rentabilidade": "Taxa fixa definida no momento da aplicação",
+  "aporte_minimo": 4.78 e 8.29,
+  "aporte_minimo": {
+    "min": 4.78,
+    "max": 8.29
+  },
+  "indicado_para": "Quem quer previsibilidade de retorno até o vencimento"
+},
+{
+  "nome": "Tesouro IPCA+",
+  "categoria": "renda_fixa",
+  "risco": "baixo",
+  "rentabilidade": "IPCA + taxa fixa",
+  "aporte_minimo": {
+    "min": 9.10,
+    "max": 42.10
+  },
+  "indicado_para": "Proteção contra inflação no longo prazo"
+}
 ]
