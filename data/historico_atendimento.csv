@@ -9,7 +9,7 @@ data,canal,tema,pergunta,resposta,categoria,resolvido
 2025-09-16,chat,PIX,"O PIX tem taxa?","Para pessoas físicas, geralmente não há cobrança.",servicos,sim
 2025-09-18,chat,Poupança,"Poupança ainda vale a pena?","Tem baixo rendimento, existem opções melhores como CDB e Tesouro Selic.",investimentos,sim
 2025-09-20,chat,Dívidas,"Como sair das dívidas?","Organize suas contas, priorize dívidas com juros altos e renegocie.",planejamento,sim
-2025-09-22,chat,CDI,"O que é CDI?","É uma taxa usada como referência para investimentos de renda fixa.",conceitos,sim
+2025-09-22,chat,CDI,"O que é CDI?"," É uma taxa de juros utilizada nos empréstimos de curtíssimo prazo (geralmente um dia).",conceitos,sim
 2025-09-24,chat,Investimentos,"Qual o melhor investimento?","Depende do seu objetivo, prazo e tolerância a risco.",investimentos,sim
 2025-09-28,chat,Aplicativo bancário,"Não consigo ver meu saldo, o que fazer?","Tente atualizar o app ou entrar em contato com o suporte.",suporte,sim
 2025-10-02,chat,Valor mínimo,"Preciso de muito dinheiro para começar a investir?","Não. Atualmente, muitos investimentos permitem começar com valores baixos, como poucos reais. Isso é possível porque algumas plataformas oferecem aplicações acessíveis e até frações de ativos, permitindo ao investidor iniciar mesmo com pouco capital.",investimentos,sim
