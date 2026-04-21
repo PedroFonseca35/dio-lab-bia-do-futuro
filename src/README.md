@@ -35,7 +35,7 @@ models -> gpt-oss
 ollama run gpt-oss
 ollama serve
 
-# instalar as dependências e iniciar a aplicação
+### instalar as dependências e iniciar a aplicação
 pip install streamlit pandas requests
 
 ---
