@@ -61,7 +61,7 @@ def perguntar(msg):
 
     Pergunta: {msg}"""
     r = request.post(OLLMA_URL, json={"model": MODELO, "prompt": prompt, "stream": False})
-    return r.json()['response']
+     return r.json()['response']
 
 # Interface Streamlit
 st.title("Emote LUMI, Seu Educador Financeiro")
